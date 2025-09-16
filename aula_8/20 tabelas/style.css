@@ -1,0 +1,288 @@
+
+
+        .tabela1 th{ 
+         
+          color: rgb(0, 0, 0);
+          padding: 10px;
+          
+        }
+
+        .tabela2 th{
+            
+          color: rgb(0, 0, 0);
+          padding: 10px;
+          
+            
+        }
+
+        .tabela2 {
+         
+            margin-top: 20px;
+            background-color: darkgray;
+         
+        }
+
+         .tabela3 th{
+              
+          color: rgb(0, 0, 255);
+          padding: 10px;
+         
+        }
+
+        .tabela3 {
+          
+            margin-top: 20px;
+            background-color: rgb(255, 255, 255);
+            color: blue;
+         
+        }
+
+         .tabela4{
+          padding: 10px;
+         font-family: Arial, Helvetica, sans-serif;
+margin-top: 20px;
+        }
+
+        .tabela4 th{ 
+          
+          color: rgb(0, 0, 0);
+          padding: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tabela5 th{
+        font-size: 20px;
+        margin-top: 20px;
+        }
+
+          .tabela6 {
+         
+            margin-top: 20px;
+            background-color: rgb(0, 255, 170);
+         
+        }
+
+        .tabela7{
+          text-align: center;
+        }
+
+        .tabela8 {
+  border: 10px solid black;
+}
+.tabela8 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela8 td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+.tabela9 {
+  border: 2px solid black;
+}
+.tabela9 th{
+    background-color: rgb(242, 124, 124);
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela9 td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+.tabela10 {
+  border: 2px solid black;
+  text-align: center;
+}
+.tabela10 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela10 td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+.tabela11 {
+  border: 2px solid black;
+  text-align: center;
+  font-style: italic;
+}
+.tabela11 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabela11 td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+.tabela12 {
+  border: 2px solid black;
+  text-align: center;
+}
+.tabela12 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela12 td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+.tabela13 {
+  border: 2px solid black;
+  text-align: center;
+}
+.tabela13 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela13 td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+.tabela14 {
+  border: 2px solid black;
+  text-align: center;
+}
+.tabela14 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela14 td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+    background-color: rgb(67, 216, 67);
+}
+
+
+.tabela15 {
+  border: 2px solid black;
+  text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.tabela15 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.tabela15 td {
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+.tabela16 {
+  border: 2px solid black;
+  text-align: center;
+}
+.tabela16 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela16 td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+.tabela17 {
+  border: 2px solid black;
+  text-align: center;
+}
+.tabela17 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela17 td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+.tabela18 {
+  border: 2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.tabela18 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial
+}
+.tabela18 td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+.tabela19 {
+  border: 2px solid black;
+  text-align: center;
+  }
+.tabela19 th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-style: italic;
+}
+.tabela19 td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+.tabela20 {
+  border: 2px solid black;
+  text-align: center;
+  color: chocolate;
+  background-color: rgb(194, 236, 53);
+  
+}
+.tabela20 th{
+    padding: 10px;
+    font-family: Arial
+    
+}
+.tabela20 td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: bold;
+}
+        
