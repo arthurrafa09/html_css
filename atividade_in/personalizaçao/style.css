@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+   
+}

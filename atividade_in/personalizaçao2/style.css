@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+details {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
