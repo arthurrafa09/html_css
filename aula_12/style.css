@@ -1,0 +1,362 @@
+/*
+  Paleta de Cores Sugerida:
+  - Preto Principal (Fundo / Texto Escuro): #1a1a1a
+  - Vermelho de Destaque (Acentos / Botões): #D50000 (um vermelho forte e vibrante)
+  - Branco/Claro (Fundo Secundário / Texto Principal): #f4f4f4
+  - Cinza Claro (Detalhes / Bordas): #cccccc
+*/
+
+:root {
+    --cor-fundo-principal: #1a1a1a;
+    --cor-fundo-secundaria: #f4f4f4;
+    --cor-texto-principal: #f4f4f4;
+    --cor-texto-secundario: #1a1a1a;
+    --cor-destaque: #D50000;
+    --cor-borda: #cccccc;
+    --cor-botao-texto: #f4f4f4;
+}
+
+/* ---------------------------------------------------- */
+/* ESTILOS GERAIS E LAYOUT */
+/* ---------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Mude para uma fonte de sua preferência (ex: Poppins, Roboto) se estiver usando um link de fonte. */
+    line-height: 1.6;
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto-principal);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.secao {
+    padding: 60px 0;
+}
+
+/* ---------------------------------------------------- */
+/* CABEÇALHO (APRESENTAÇÃO) */
+/* ---------------------------------------------------- */
+
+#apresentacao {
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto-principal);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--cor-destaque); /* Borda vermelha de destaque */
+    margin-bottom: 20px;
+}
+
+#apresentacao h1 {
+    font-size: 2.5em;
+    color: var(--cor-texto-principal);
+    margin-bottom: 5px;
+}
+
+#apresentacao h2 {
+    font-size: 1.2em;
+    color: var(--cor-destaque); /* Destaque vermelho no cargo */
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#apresentacao p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 1.1em;
+}
+
+/* ---------------------------------------------------- */
+/* LINKS E BOTÕES (CONTATO RÁPIDO) */
+/* ---------------------------------------------------- */
+
+.contato-rapido a {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Botão principal (Entrar em Contato) */
+.contato-rapido a:first-child {
+    background-color: var(--cor-destaque);
+    color: var(--cor-botao-texto);
+    border: 2px solid var(--cor-destaque);
+}
+
+.contato-rapido a:first-child:hover {
+    background-color: #a00000; /* Tom mais escuro de vermelho no hover */
+    transform: translateY(-2px);
+}
+
+/* Botão secundário (Baixar CV) */
+.contato-rapido a:last-child {
+    background-color: transparent;
+    color: var(--cor-texto-principal);
+    border: 2px solid var(--cor-texto-principal);
+}
+
+.contato-rapido a:last-child:hover {
+    background-color: var(--cor-texto-principal);
+    color: var(--cor-fundo-principal);
+    transform: translateY(-2px);
+}
+
+/* ---------------------------------------------------- */
+/* SEÇÕES GERAIS */
+/* ---------------------------------------------------- */
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: var(--cor-destaque); /* Títulos das seções em destaque */
+    border-bottom: 3px solid var(--cor-destaque);
+    display: inline-block;
+    padding-bottom: 5px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cor-fundo-secundaria {
+    background-color: var(--cor-fundo-secundaria);
+    color: var(--cor-texto-secundario);
+}
+
+.cor-fundo-secundaria h2,
+.cor-fundo-secundaria h3 {
+    color: var(--cor-texto-secundario); /* Texto escuro no fundo claro */
+}
+
+/* ---------------------------------------------------- */
+/* HABILIDADES */
+/* ---------------------------------------------------- */
+
+#habilidades {
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto-principal);
+}
+
+.habilidades-lista {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.habilidade-card {
+    flex: 1;
+    background-color: #2c2c2c; /* Cinza escuro para os cards */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-top: 5px solid var(--cor-destaque);
+    transition: transform 0.3s ease;
+}
+
+.habilidade-card:hover {
+    transform: translateY(-5px);
+}
+
+.habilidade-card h3 {
+    color: var(--cor-destaque);
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+.habilidade-card ul {
+    list-style: none; /* Remove marcadores padrão */
+}
+
+.habilidade-card li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #444;
+}
+
+.habilidade-card li:last-child {
+    border-bottom: none;
+}
+
+/* ---------------------------------------------------- */
+/* FORMAÇÃO */
+/* ---------------------------------------------------- */
+
+.formacao-lista {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.item-formacao {
+    background-color: #ffffff;
+    border-left: 5px solid var(--cor-destaque);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-formacao h3 {
+    color: var(--cor-destaque);
+    margin-bottom: 5px;
+}
+
+/* ---------------------------------------------------- */
+/* PROJETOS */
+/* ---------------------------------------------------- */
+
+.projetos-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.projeto-card {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.projeto-card:hover {
+    box-shadow: 0 8px 16px rgba(213, 0, 0, 0.4); /* Sombra vermelha no hover */
+}
+
+.projeto-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--cor-destaque);
+}
+
+.projeto-card h3 {
+    color: var(--cor-destaque);
+    padding: 15px 15px 5px;
+    font-size: 1.2em;
+}
+
+.projeto-card p {
+    padding: 5px 15px 15px;
+    color: var(--cor-texto-principal);
+    font-size: 0.95em;
+}
+
+.link-projeto {
+    display: block;
+    padding: 10px 15px;
+    margin: 0 15px 10px;
+    text-align: center;
+    background-color: var(--cor-destaque);
+    color: var(--cor-botao-texto);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.link-projeto:hover {
+    background-color: #a00000;
+}
+
+/* ---------------------------------------------------- */
+/* CONTATO */
+/* ---------------------------------------------------- */
+
+#contato a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+
+.contato-detalhes, .redes-sociais {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    border: 2px solid var(--cor-destaque);
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.redes-sociais a:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-botao-texto);
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------- */
+/* RODAPÉ (FOOTER) */
+/* ---------------------------------------------------- */
+
+footer {
+    background-color: #000000;
+    color: #aaaaaa;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 5px solid var(--cor-destaque);
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* ---------------------------------------------------- */
+/* MEDIA QUERIES (RESPONSIVIDADE) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .habilidades-lista {
+        flex-direction: column;
+    }
+
+    .habilidade-card {
+        margin-bottom: 20px;
+    }
+
+    .contato-rapido a {
+        display: block;
+        margin: 10px auto;
+        max-width: 80%;
+    }
+    
+    #apresentacao h1 {
+        font-size: 2em;
+    }
+    
+    #apresentacao h2 {
+        font-size: 1em;
+    }
+}
